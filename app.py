@@ -18,7 +18,7 @@ from sklearn.linear_model import LinearRegression
 
 
 
-df=pd.read_csv('/content/StressLevelDataset (1).csv',sep=';')
+df = pd.read_csv('stress.csv', sep=';')
 
 df.head()
 
