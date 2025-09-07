@@ -246,8 +246,6 @@ df = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/StressLevelDataset (1).
 from google.colab import drive
 drive.mount('/content/drive')
 
-!ls "/content/drive/MyDrive/Colab Notebooks"
-
 from google.colab import files
 uploaded = files.upload()
 
